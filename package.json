@@ -6,14 +6,15 @@
   "productName":"VSM",
   "win": {
      "iconUrl": "http://vsm.sg.demo.ihealthlabs.com/img/ihealth-256.ico",
-     "loadingGif":"./build/ihealth-256.gif"
+     "loadingGif":"./build/ihealth-256.gif",
+     "remoteReleases":"http://vsm.sg.demo.ihealthlabs.com/app/latest"
   }
 },
 "scripts": {
   "start": "electron .",
   "postinstall": "install-app-deps",
   "pack": "build --dir",
-  "dist": "build"
+  "dist": "build -w --x64"
 },
   "devDependencies": {
     "electron-prebuilt": "^1.2.0",
