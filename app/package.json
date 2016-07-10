@@ -1,0 +1,18 @@
+{
+  "name": "VSM",
+  "version": "1.0.0",
+  "description": "A desktop version of vsm-singapore",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Lizzy",
+  "license": "",
+  "dependencies": {
+    "configstore": "^2.0.0",
+    "electron-debug": "^1.0.1",
+    "underscore": "^1.8.3",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "rootUrl": "http://vsm.sg.demo.ihealthlabs.com"
+}
