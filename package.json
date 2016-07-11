@@ -1,6 +1,6 @@
 {
-
   "build": {
+
   "appId": "vsm-singapore",
   "app-category-type": "public.app-category.graphics-design",
   "productName":"VSM",
@@ -16,8 +16,12 @@
   "pack": "build --dir",
   "dist": "build -w --x64 --ia32"
 },
+
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0",
+    "electron-prebuilt": "^1.2.6",
     "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "electron-build": "0.0.3"
   }
 }
